@@ -1,0 +1,111 @@
+name: my_pet_opd
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.4+4
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versio
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  linear_gradient: ^0.1.12
+  intl: ^0.17.0
+  fluttertoast: ^8.0.9
+  flutter_spinkit: ^5.1.0
+  lottie: ^1.4.3
+  http: ^0.13.5
+  dio: ^4.0.6
+  path_provider: ^2.0.11
+  url_launcher: ^6.1.5
+  connectivity_plus: ^2.3.7
+  pin_code_fields: ^7.4.0
+  shared_preferences: ^2.0.15
+  share_plus: ^4.4.0
+  upgrader: ^4.6.1
+  double_back_to_close: ^2.0.0
+  validators: ^3.0.0
+  flutter_html: ^3.0.0-alpha.5
+  expandable: ^5.0.1
+  onesignal_flutter: ^3.4.1
+  image_picker: ^0.8.5+3
+  path: ^1.8.2
+  flutter_walkthrough_screen: ^2.0.2
+  flutter_svg: ^1.1.5
+  cached_network_image: ^3.2.2
+  cupertino_icons: ^1.0.5
+  carousel_slider: ^4.1.1
+  awesome_dialog: ^3.0.2
+  file_picker: ^5.0.1
+  animated_bottom_navigation_bar: ^1.1.0
+  image_cropper: ^3.0.1
+  dotted_border: ^2.0.0+3
+  multi_select_flutter: ^4.1.3
+  flutter_ringtone_player: ^3.2.0
+  wakelock: ^0.6.1+2
+  agora_rtc_engine: ^5.3.0
+  permission_handler: ^8.1.1
+
+dev_dependencies:
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.1
+#  flutter_native_splash: ^2.2.9
+  flutter_launcher_icons: ^0.10.0
+
+  #flutter_icons:
+  #  icon: images/logo.svg
+  #  android: true
+  #  ios: true
+  #flutter pub run flutter_launcher_icons:main
+
+
+flutter_icons:
+  android: "launcher_icon"
+  background_color: "#000000"
+  ios: true
+  image_path: "assets/My Pet OPD 512.png"
+  #flutter pub run flutter_launcher_icons:main
+
+
+#flutter_native_splash:
+#  color: "#ffffff"
+#  image: "assets/splash_screen.png"
+#  android: true
+#  ios: true
+  #flutter pub run flutter_native_splash:create
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+
+flutter:
+  uses-material-design: true
+  #   fonts:
+  #     - family: Outfit
+  #       fonts:
+  #          - asset: font/Outfit.ttf
+
+  assets:
+    - assets/
+
